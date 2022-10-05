@@ -55,7 +55,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Welcome to AlexasMusic</span>
+                <span className="tagline">Welcome to AlexaMusic</span>
                 <h1>{`Alexa beats only`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "" ]'><span className="wrap">{text}</span></span></h1>
                   <p></p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>

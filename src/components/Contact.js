@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+import emailjs from '';
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import contactImg from "../assets/img/contact-img.png";
