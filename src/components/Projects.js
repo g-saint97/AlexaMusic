@@ -13,7 +13,7 @@ export const Projects = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                <h2>Projects</h2>
+                <h2>Latest Projects</h2>
                 <p>Please feel free to check out my beats on SoundCloud! </p>
                 <p>They are also available for sale on <a href="https://airbit.com/asaint02">Airbits</a> </p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
