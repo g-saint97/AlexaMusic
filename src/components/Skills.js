@@ -38,26 +38,26 @@ export const Skills = () => {
                         <p>Music is a means to express who you are and every genre brings out different versions of you<br></br>So far I've found a passion for these times of genres because I feel like as a latin girl this represents who I am.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="" />
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={meter2} alt="" />
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={meter3} alt="" />
                             </div>
                             <div className="item">
-                                <img src={meter4} alt="Image" />
+                                <img src={meter4} alt="" />
                             </div>
                             <div className="item">
-                                <img src={meter5} alt="Image" />
+                                <img src={meter5} alt="" />
                             </div>
                         </Carousel>
                     </div>
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        <img className="background-image-left" src={colorSharp} alt="" />
     </section>
   )
 }
