@@ -35,7 +35,7 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Music Genres</h2>
-                        <p>Music is a means to express who you are and every genre brings out different versions of you<br></br>So far I've found a passion for these times of genres because I feel like as a latin girl this represents who I am.</p>
+                        <p>Music is a means to express who you are and every genre brings out different versions of you<br></br>So far I've found a passion for these times of genres because I feel like as a Latina this represents who I am.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="" />
