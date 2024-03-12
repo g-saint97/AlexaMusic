@@ -54,13 +54,13 @@ export const Contact = () => {
                 <form ref={form} onSubmit={sendEmail}>
                   <Row>
                     <Col size={12} sm={6} className="px-1">
-                      <input type="text" name="user_name" placeholder="First Name"/>
+                      <input type="text" name="user_name" placeholder="First Name" required />
                     </Col>
                     <Col size={12} sm={6} className="px-1">
-                      <input type="text" name="user_name" placeholder="Last Name" />
+                      <input type="text" name="user_name" placeholder="Last Name" required />
                     </Col>
                     <Col size={12} sm={6} className="px-1">
-                      <input type="email" name="user_email" placeholder="Email Address" />
+                      <input type="email" name="user_email" placeholder="Email Address" required />
                     </Col>
                     <Col size={12} sm={6} className="px-1">
                       <input type="tel" placeholder="Phone No. (Optional)"/>
