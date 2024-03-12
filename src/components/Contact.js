@@ -18,7 +18,7 @@ export const Contact = () => {
       'service_jn84ky5', 
       'template_smmiurb', 
       form.current, 
-      'V_HZExsKK-w65IfSy')
+      'ximkJiZlTMuCkqrhQ')
     .then(
       (result) => {
         console.log(result.text);
