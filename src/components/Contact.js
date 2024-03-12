@@ -66,7 +66,7 @@ export const Contact = () => {
                       <input type="tel" placeholder="Phone No. (Optional)"/>
                     </Col>
                     <Col size={12} className="px-1">
-                      <textarea name="message" rows="6" placeholder="Message" ></textarea>
+                      <textarea name="message" rows="6" placeholder="Message" required></textarea>
                       <button type="submit" value="Send" ><span>{buttonText}</span></button>
                     </Col>
                   </Row>
